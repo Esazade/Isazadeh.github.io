@@ -1,6 +1,6 @@
-title: "leyla Isazadeh Blog"
+title: "Leyla Isazadeh Blog"
 description: "A Personal technical notes and learning blog."
-remote_theme: just-the-docs/just-the-docs
+remote_theme: "just-the-docs/just-the-docs"
 
 url: "https://lsazadeh.github.io"
 
