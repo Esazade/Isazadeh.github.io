@@ -9,3 +9,6 @@ aux_links:
     - "//github.com/lsazadeh"
 
 search_enabled: true
+
+plugins:
+  - jekyll-remote-theme
