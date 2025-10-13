@@ -5,22 +5,21 @@ parent: "C#"
 nav_order: 1
 ---
 
-# 🔍 Value Type vs Reference Type in C#
+# Value Type vs Reference Type in C#
 
-گاهی باگی پیش میاد که ظاهراً هیچ منطقی نداره.  
-دو متغیر داری، یکی رو تغییر می‌دی ولی اون یکی هم تغییر می‌کنه!  
-دقیقاً همین اتفاقیه که باعث میشه تفاوت **Value Type** و **Reference Type** رو واقعاً درک کنیم.
-
+Sometimes you run into a bug that makes absolutely no sense.
+You change one variable — and somehow, another one changes too!
+That’s the exact moment you realize what Value Types and Reference Types really mean.
 ---
 
 ## Value Type
 
-مثل اینه که هر نفر یه جعبه مخصوص خودش داره و چیزی داخلش می‌ذاره و اگه یکی از روی اون جعبه کپی کنه، فقط یه نسخه‌ی جدید از محتوا رو برمی‌داره.
-مثل این می‌مونه که از دفتر دوستت کپی گرفتی، اما هرچی روی کپی بنویسی دفتر دوستت عوض نمی‌شه.
-
+Imagine everyone has their own box.
+When you copy what’s inside, you just get a new version — not the original one.
+It’s like photocopying your friend’s notebook: writing on your copy doesn’t change theirs
 ---
 
-## مثال واقعی
+## Real Example
 
 ```csharp
 int a = 10;
@@ -29,15 +28,18 @@ b = 20;
 
 Console.WriteLine(b);  // 20
 
+```
 
 ## Reference Type
 
-اما این یکی فرق داره. اینجا به جای اینکه یه جعبه جدا داشته باشی، یه برگه داری که آدرس جعبه اصلی روش نوشته شده!
-پس اگه برگه‌اتو بدی به یه نفر دیگه، اونم به همون جعبه‌ی اصلی دسترسی داره.
-هر تغییری یکی انجام بده، برای همه دیده میشه.
----
+But this one’s different.
+Instead of having your own box, you’re holding a note with the address of the real box written on it.
 
-## مثال واقعی
+So if you give that note to someone else, they can open and change the same box you’re pointing to.
+Whatever one person changes inside it — everyone else sees it too
+
+
+## Real Example
 
 ```csharp
 Book b1 = new Book();
@@ -47,15 +49,15 @@ Book b2 = b1;
 b2.Title = "PHP";
 
 Console.WriteLine(b1.Title);  // php
+```
+Now, if you do it this way instead
 
----
-اما اگه این‌طوری بنویسی
-
+```csharp
 Book b1 = new Book();
 b1.Title = "C# Basics";
 
 Book b2 = new Book();
 b2.Title = "PHP";
-
-این یعنی هر کدوم یه کتاب مستقل توی قفسه‌ی خودشون دارن.
-عنوان یکی رو عوض کنی، اون یکی هیچ تغییری نمی‌کنه.
+```
+This means each one is a completely separate book on its own shelf.
+If you change the title of one, the other stays exactly the same
