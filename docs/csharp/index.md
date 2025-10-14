@@ -21,5 +21,7 @@ you might still find a new way of looking at it.
 ---
 
 ## 📚 Articles
+- [.Net](.net.md)
+- [.Variable](variable.md)
 - [Value vs Reference Type](value-vs-reference.md)
-- [Ref vs Out](ref-vs-out.md.md)
+- [Ref vs Out](ref-vs-out.md)

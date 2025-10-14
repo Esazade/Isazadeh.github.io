@@ -30,7 +30,7 @@ Console.WriteLine(a);   // 15
 It’s like giving someone the key to your storage room so they can go inside and change something themselves 😊
 
 
-# Out 
+## Out 
 
 Here, you don’t need to assign an initial value, because the method itself will provide one.
 ---
