@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "C#"
-nav_order: 1
+nav_order: 0
 has_children: true
 ---
 
@@ -21,7 +21,9 @@ you might still find a new way of looking at it.
 ---
 
 ## 📚 Articles
-- [.Net](.net.md)
-- [.Variable](variable.md)
+- [.Net](net.md)
+- [Variable](variable.md)
+- [Array](array.md)
+- [List](list.md)
 - [Value vs Reference Type](value-vs-reference.md)
 - [Ref vs Out](ref-vs-out.md)

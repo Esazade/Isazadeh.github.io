@@ -2,7 +2,7 @@
 layout: default
 title: "List"
 parent: "C#"
-nav_order: 2
+nav_order: 4
 ---
 
 # List 
