@@ -2,7 +2,7 @@
 layout: default
 title: "Value vs Reference Type"
 parent: "C#"
-nav_order: 5
+nav_order: 6
 ---
 
 # Value Type vs Reference Type in C#

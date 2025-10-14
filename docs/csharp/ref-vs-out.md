@@ -2,7 +2,7 @@
 layout: default
 title: "ref vs out"
 parent: "C#"
-nav_order: 6
+nav_order: 7
 ---
 
 # Ref 
@@ -31,7 +31,7 @@ It’s like giving someone the key to your storage room so they can go inside an
 
 
 ## Out 
-
+  
 Here, you don’t need to assign an initial value, because the method itself will provide one.
 ---
 

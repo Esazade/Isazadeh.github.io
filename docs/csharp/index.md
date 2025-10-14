@@ -25,5 +25,6 @@ you might still find a new way of looking at it.
 - [Variable](variable.md)
 - [Array](array.md)
 - [List](list.md)
+- [Class](class.md)
 - [Value vs Reference Type](value-vs-reference.md)
 - [Ref vs Out](ref-vs-out.md)

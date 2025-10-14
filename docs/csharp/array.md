@@ -24,7 +24,6 @@ int[] ages = new int[3];    // array with 3 elements
 ages[0] = 20;
 ages[1] = 25;
 ages[2] = 30;
-
 ```
 
 ## Iterating Through an Array (Loop)
@@ -36,7 +35,6 @@ for (int i = 0; i < scores.Length; i++)
 {
     Console.WriteLine(scores[i]);
 }
-
 ```
 
 ### Using foreach
@@ -45,7 +43,6 @@ foreach (int score in scores)
 {
     Console.WriteLine(score);
 }
-
 ```
 Both loops go through all elements of the array
 
@@ -54,7 +51,6 @@ Both loops go through all elements of the array
 ### One-Dimensional Array (Simple Array)
 ```csharp
 int[] numbers = { 1, 2, 3 };
-
 ```
 
 ### Two-Dimensional Array (Like a Table)
@@ -65,7 +61,6 @@ int[,] matrix = {
 };
 
 Console.WriteLine(matrix[1, 2]); // Output: 6
-
 ```
 
 ### Multidimensional Array (3D or more)
@@ -82,7 +77,6 @@ int[,,] cube = {
 };
 
 Console.WriteLine(cube[1, 0, 1]); // Output: 6
-
 ```
 
 ### Jagged Array (Array of Arrays)
@@ -95,7 +89,6 @@ numbers[1] = new int[] { 4, 5 };
 numbers[2] = new int[] { 6, 7, 8, 9 };
 
 Console.WriteLine(numbers[1][0]); // Output: 4
-
 ```
 
 ### Array of Objects
@@ -105,12 +98,10 @@ books[0] = new Book("C# Basics");
 books[1] = new Book("Advanced C#");
 
 Console.WriteLine(books[0].Title); // Output: C# Basics
-
 ```
 
 ### Implicitly Typed Array
 ```csharp
 var names = new[] { "Sara", "Ali", "Reza" };  // string[]
 var numbers = new[] { 1, 2, 3, 4 };           // int[]
-
 ```
