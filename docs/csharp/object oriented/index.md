@@ -7,6 +7,6 @@ parent: "C#"
 ---
 
 ## Object Oriented Articles
-- [Classes](object_oriented/classes.md)
-- [Encapsulation](object_oriented/encapsulation.md)
-- [Inheritance](object_oriented/inheritance.md)
+- [Classes](classes.md)
+- [Encapsulation](encapsulation.md)
+- [Inheritance](inheritance.md)
