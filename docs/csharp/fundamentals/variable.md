@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Variable"
-parent: "C#"
+parent: "fundamentals"
 nav_order: 2
 ---
 

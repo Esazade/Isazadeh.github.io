@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Exception"
-parent: "C#"
+parent: "fundamentals"
 nav_order: 10
 ---
 

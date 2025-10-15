@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Loops"
-parent: "C#"
+parent: "fundamentals"
 nav_order: 9
 ---
 

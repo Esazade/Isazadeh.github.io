@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Class"
-parent: "C#"
+parent: "fundamentals"
 nav_order: 5
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "ref vs out"
-parent: "C#"
+parent: "fundamentals"
 nav_order: 7
 ---
 

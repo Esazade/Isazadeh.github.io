@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Conditions"
-parent: "C#"
+parent: "fundamentals"
 nav_order: 8
 ---
 

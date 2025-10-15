@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Value vs Reference Type"
-parent: "C#"
+parent: "fundamentals"
 nav_order: 6
 ---
 

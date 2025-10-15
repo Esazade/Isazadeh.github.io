@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "List"
-parent: "C#"
+parent: "fundamentals"
 nav_order: 4
 ---
 
