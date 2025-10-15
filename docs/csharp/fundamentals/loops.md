@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Conditions And Loops"
+title: "Loops"
 parent: "C#"
 nav_order: 9
 ---

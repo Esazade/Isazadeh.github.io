@@ -21,12 +21,13 @@ you might still find a new way of looking at it.
 ---
 
 ## 📚 Articles
-- [.Net](net.md)
-- [Variable](variable.md)
-- [Array](array.md)
-- [List](list.md)
-- [Class](class.md)
-- [Value Vs Reference Type](value-vs-reference.md)
-- [Ref Vs Out](ref-vs-out.md)
-- [Conditions](conditions.md)
-- [Loops](loops.md)
+- [.Net](fundamentals/net.md)
+- [Variable](fundamentals/variable.md)
+- [Array](fundamentals/array.md)
+- [List](fundamentals/list.md)
+- [Class](fundamentals/class.md)
+- [Value Vs Reference Type](fundamentals/value-vs-reference.md)
+- [Ref Vs Out](fundamentals/ref-vs-out.md)
+- [Conditions](fundamentals/conditions.md)
+- [Loops](fundamentals/loops.md)
+- [Exception](fundamentals/exception.md)
