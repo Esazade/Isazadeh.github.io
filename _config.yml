@@ -12,3 +12,16 @@ search_enabled: true
 
 plugins:
   - jekyll-remote-theme
+
+# تنظیم منو
+menu:
+  C#:
+    - title: "Fundamentals"
+      url: "docs/csharp/fundamentals/index.md"
+      has_children: true
+    - title: "Object Oriented"
+      url: "docs/csharp/object_oriented/index.md"
+      has_children: true
+
+# تنظیمات منو و صفحات دیگر
+nav_order: 0

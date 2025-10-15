@@ -19,7 +19,3 @@ so even if you already know the concept,
 you might still find a new way of looking at it.  
 
 ---
-
-## 📚 Articles
-- [Fundamentals](fundamentals/index.md)
-- [Object Oriented](object_oriented/index.md)
