@@ -5,10 +5,10 @@ parent: "Fundamentals"
 nav_order: 8
 ---
 
-# Conditions And Loops 
-
-Programming isn’t just about writing a few lines of code — it’s about making decisions and repeating actions when needed.  
-
+# Conditions And Loops  
+In modern programming, logic and flow control define how smart your application behaves.  
+C# has evolved — from simple if statements to pattern-based decisions and expression-style switches.  
+Let’s explore how decision-making in C# has changed over the years
 ---
 
 ## if, else if , else  
@@ -40,6 +40,21 @@ else
 {
     Console.WriteLine("Grade: F");
 }
+```
+## The Ternary Operator `?:`  
+The ternary operator is a shorter way to write simple `if...else` statements.  
+It has three parts — a condition, a result if true, and a result if false.
+
+**Syntax:**
+```csharp
+(condition) ? trueResult : falseResult;  
+```
+  
+```csharp
+int age = 20;
+string message = (age >= 18) ? "Adult" : "Minor";
+
+Console.WriteLine(message); // Output: Adult
 ```
 
 ## switch  

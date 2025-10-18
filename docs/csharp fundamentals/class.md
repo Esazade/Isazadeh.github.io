@@ -144,3 +144,75 @@ Car car1 = new Car("BMW", 120);
 Car car2 = new Car("Audi", 140);
 Console.WriteLine("Total cars: " + Car.count);      // Total cars: 2
 ```
+
+## Using Getters and Setters  
+In C#, *properties* let you control how fields are read or updated.  
+They use **getters** (for reading values) and **setters** (for assigning values).
+
+Instead of using public fields like this:
+```csharp
+public class Car
+{
+    public string brand;
+    public int speed;
+}
+```   
+You can use properties to protect the data:
+```csharp
+public class Car
+{
+    private string brand;  // private field
+
+    public string Brand    // Property
+    {
+        get { return brand; }              // Getter
+        set { brand = value; }             // Setter
+    }
+}
+```
+Now you can access the property safely:  
+```csharp
+Car myCar = new Car();
+myCar.Brand = "BMW";          // calls the setter
+Console.WriteLine(myCar.Brand); // calls the getter
+``` 
+## Adding Validation  
+You can add logic inside the setter to validate data before saving it.
+```csharp
+public class Car
+{
+    private int speed;
+
+    public int Speed
+    {
+        get { return speed; }
+        set
+        {
+            if (value < 0)
+                throw new ArgumentException("Speed cannot be negative!");
+            speed = value;
+        }
+    }
+}
+```
+
+## Auto-Implemented Properties  
+If you don’t need any extra logic, you can let C# automatically create a hidden field:
+```csharp
+public class Car
+{
+    public string Brand { get; set; }
+    public int Speed { get; set; }
+}
+``` 
+This is the same as manually writing a field with a basic getter and setter.
+
+## Read-Only and Write-Only Properties  
+You can also make a property read-only (getter only) or write-only (setter only):
+```csharp
+public class Car
+{
+    public string Model { get; } = "Sedan";  // read-only
+    public string Password { private get; set; }  // write-only from outside
+}
+``` 
