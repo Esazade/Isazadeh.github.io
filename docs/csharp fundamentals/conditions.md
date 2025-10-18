@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Conditions"
-parent: "fundamentals"
+parent: "Fundamentals"
 nav_order: 8
 ---
 

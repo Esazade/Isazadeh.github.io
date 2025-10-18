@@ -1,9 +1,9 @@
 ---
 layout: default
 title: "Object Oriented"
-nav_order: 2
-has_children: true
 parent: "C#"
+has_children: true
+nav_order: 2
 ---
 
 ## Object Oriented Articles

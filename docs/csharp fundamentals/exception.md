@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Exception"
-parent: "fundamentals"
+parent: "Fundamentals"
 nav_order: 10
 ---
 

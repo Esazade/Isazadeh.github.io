@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Loops"
-parent: "fundamentals"
+parent: "Fundamentals"
 nav_order: 9
 ---
 

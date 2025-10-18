@@ -1,7 +1,7 @@
 ---
 layout: default
 title: ".NET Framework vs .NET Core "
-parent: "fundamentals"
+parent: "Fundamentals"
 nav_order: 1
 ---
 

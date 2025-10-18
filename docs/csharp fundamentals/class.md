@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Class"
-parent: "fundamentals"
+parent: "Fundamentals"
 nav_order: 5
 ---
 

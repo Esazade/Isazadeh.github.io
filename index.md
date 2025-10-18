@@ -19,7 +19,7 @@ Mostly about the things I’ve struggled with, figured out, and decided to expla
 ---
 
 ### Start Exploring
-- [C#](docs/csharp/index.md)
+- [C#](docs/csharp fundamentals/index.md)
 - [About Me](docs/about.md)
 
 ---

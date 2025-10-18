@@ -1,11 +1,11 @@
 ---
 layout: default
 title: "C#"
-nav_order: 0
 has_children: true
+nav_order: 0
 ---
 
-# C# 
+# C# Fundamentals
 
 In this section, I share my personal notes and thoughts from revisiting C#.  
 Many of these ideas come from **Pluralsight courses** and real-world programming experience.  

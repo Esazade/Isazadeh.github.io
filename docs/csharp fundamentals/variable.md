@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Variable"
-parent: "fundamentals"
+parent: "Fundamentals"
 nav_order: 2
 ---
 

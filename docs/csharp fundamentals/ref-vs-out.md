@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "ref vs out"
-parent: "fundamentals"
+parent: "Fundamentals"
 nav_order: 7
 ---
 

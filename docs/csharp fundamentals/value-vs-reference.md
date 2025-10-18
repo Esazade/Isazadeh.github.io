@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Value vs Reference Type"
-parent: "fundamentals"
+parent: "Fundamentals"
 nav_order: 6
 ---
 
