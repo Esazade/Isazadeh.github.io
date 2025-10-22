@@ -10,7 +10,6 @@ nav_order: 7
 Normally, when you pass a value (like a number) to a method, a copy of that value is sent inside the method.
 But with ref and out, you can pass the actual variable itself, not just its copy.
 This means the method can directly modify the original value
----
 
 ## Real Example
 
@@ -30,8 +29,7 @@ Console.WriteLine(a);   // 15
 It’s like giving someone the key to your storage room so they can go inside and change something themselves 😊
 
 
-## Out 
-  
+## Out  
 Here, you don’t need to assign an initial value, because the method itself will provide one.
 ---
 

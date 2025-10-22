@@ -1,8 +1,8 @@
 ---
 layout: default
 title: "Class"
-parent: "Fundamentals"
-nav_order: 5
+parent: "ObjectOriented"
+nav_order: 1
 ---
 
 # Class 

@@ -10,10 +10,8 @@ nav_order: 6
 Sometimes you run into a bug that makes absolutely no sense.
 You change one variable — and somehow, another one changes too!
 That’s the exact moment you realize what Value Types and Reference Types really mean.
----
 
-## Value Type
-
+## Value Type  
 Imagine everyone has their own box.
 When you copy what’s inside, you just get a new version — not the original one.
 It’s like photocopying your friend’s notebook: writing on your copy doesn’t change theirs
