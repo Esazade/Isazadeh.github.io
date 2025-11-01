@@ -196,9 +196,9 @@ public class MyCollection<T> : ICollection<T>
 ```
 
 ## How to Choose the Right Collection?  
-- <T>: When you need indexed access and care about maintaining order.
+- List<T>: When you need indexed access and care about maintaining order.
 
-- <TKey, TValue>: When you need fast lookups by key.
+- Dictionary<TKey, TValue>: When you need fast lookups by key.
 
 - HashSet<T>: When uniqueness of elements is important.
 
