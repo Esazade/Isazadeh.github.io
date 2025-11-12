@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Asynchronous Programming in C#"
+title: "Asynchronous Programming"
 parent: "CsharpAdvanced"
 nav_order: 3
 ---
