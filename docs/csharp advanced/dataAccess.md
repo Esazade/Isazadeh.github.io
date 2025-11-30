@@ -24,7 +24,8 @@ It provides classes for establishing connections, executing commands, and readin
 | Bridges between DataSet and the database           | `SqlDataAdapter`          |
 | In-memory representation of relational data        | `DataSet` / `DataTable`   |
 
-#### Example: Reading Data  
+
+
 ```csharp
 using System.Data.SqlClient;
 
@@ -46,7 +47,7 @@ using (SqlConnection conn = new SqlConnection(connectionString))
 }
 ```
 
-#### Example: Inserting Data  
+
 ```csharp
 string insertQuery = "INSERT INTO Products (Name, Price) VALUES (@n, @p)";
 using (SqlCommand cmd = new SqlCommand(insertQuery, conn))
@@ -71,7 +72,7 @@ It allows developers to work with data using C# objects instead of raw SQL.
 | Allows querying data in an object-oriented way    | LINQ Query     |
 
 
-#### Example: Basic EF Core Model   
+   
 ```csharp
 using Microsoft.EntityFrameworkCore;
 
@@ -91,7 +92,7 @@ public class ShopContext : DbContext
 }
 ```
 
-#### Example: Querying Data  
+ 
 ```csharp
 using var db = new ShopContext();
 
